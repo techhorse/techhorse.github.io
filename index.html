@@ -1,3 +1,41 @@
+
+<?php
+if(isset($_POST['contact_name']) && isset($_POST['contact_email']) && isset($_POST['contact_text']) &&  isset($_POST['contact_phone'])){
+	echo $contact_name = $_POST['contact_name'];
+	echo $contact_email = $_POST['contact_email'];
+	echo $contact_phone = $_POST['contact_phone'];
+	echo $contact_text = $_POST['contact_text'];
+	
+	if(!empty($contact_name) && !empty($contact_email) && !empty($contact_text) 77 !empty($contact_phone)){
+		$to = 'agrawalabhishek199718@gmail.com';
+		$subject = 'Contact Form Submitted';
+		$body = $contact_name."\n".$contact_text.$contact_phone ;
+		$headers = 'From'.$contact_email;
+		if(mail($to,$subject,$body,$headers)){
+			echo 'Thanks For Contacting US. W\'ll be in touch soon';
+			
+			
+		}
+		else{
+			echo 'Sorry an error Occured.Please Try again Later';
+		}
+	
+		
+		
+	}
+	else{
+		echo 'All Fields Are Required';
+	}
+	
+	
+	
+}
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html >
 <head>
@@ -16,16 +54,18 @@
 <body>
   
 <header class="navbar navbar-default navbar-fixed-top" id="banner">
-  <div class="container"><a class="scrollable" href="#top"><img class="border" src="http://i.imgur.com/axK4g6J.png" alt="qlip | UI/UX Design and Development" title="qlip | UI/UX Design and Development"/></a>
+  <div class="container"><a class="scrollable" href="#top"><img class="border" src="http://i.imgur.com/g0Qpruf.jpg" alt="qlip | UI/UX Design and Development" title="qlip | UI/UX Design and Development"/></a>
     
     <nav class="collapse navbar-collapse" id="navbar" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li><a class="scrollable" href="#top">About</a></li>
         <li><a class="scrollable" href="#portfolio">Portfolio</a></li>
         <li><a class="scrollable" href="#contact">Contact</a></li>
+		
       </ul>
     </nav>
   </div>
+  
 </header>
 <!-- end header--><a id="top" name="home"></a>
 <main>
@@ -33,7 +73,7 @@
     <div class="intro-text">
       <p>Abhishek is a Front-End Developer with practical experience and hands on project in Web HTML,CSS,JavaScript,Python.Abhishek is a focused and goal-oriented person.He is tenacious and possesses excellent leadership and communication skills. He actively participates in Technical and Engineering related activities and has no inhibitions to work hard to achieve his goals and meet deadlines.</p>
       <hr class="star-bright"/><span class="skills">Web Developer - Programmer-   Curious Mind</span>
-    </div><img  class="img-responsive" src="http://i.imgur.com/g0Qpruf.jpg" alt="A picture of Abhishek Looking at Sea" title="A picture of Abhishek looking at Sea."/>
+    </div><img src="http://i.imgur.com/g0Qpruf.jpg" alt="A picture of Abhishek Looking at Sea" title="A picture of Abhishek looking at Sea."/>
   </header>
   <!-- Gallery Grid Section-->
   <section id="portfolio">
@@ -51,32 +91,51 @@
   <section id="contact">
     <h2>Contact Me</h2>
     <hr class="star-dark"/>
-    <div>
-      <form id="contactForm" novalidate="">
+    <div class="left">
+      <form action="https://script.google.com/macros/s/AKfycbw8q5gGpdlrVcNTcY5WZAp-Z8JYdn1lnjq66z7GhOMBjXWW_Tk/exec" method="POST" id="contactForm" novalidate="">
         <div class="form-item">
           <label for="“name”">Name</label>
-          <input id="name" type="text" placeholder="Name" required=""/>
+          <input id="name" name="contact_name" type="text" placeholder="Name" required=""/>
         </div>
         <div class="form-item">
           <label for="“email”">Email Address</label>
-          <input id="email" type="email" placeholder="Email Address" required=""/>
+          <input id="email"  name="contact_email" type="email" placeholder="Email Address" required=""/>
         </div>
         <div class="form-item">
           <label for="“phone”">Phone Number</label>
-          <input id="phone" type="tel" placeholder="Phone Number" required=""/>
+          <input id="phone" name="contact_phone" type="tel" placeholder="Phone Number" required=""/>
         </div>
         <div class="form-item">
           <label for="“message”">Message</label>
-          <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+          <textarea id="message" name="contact_text" rows="5" placeholder="Message" required=""></textarea>
         </div><br/>
         <button type="submit">Send</button>
       </form>
-      <div>
-        <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe or about Web HTML,CSS,JavaScript,Python,Programming or any related query... just feel free to drop me a line anytime.</p>
-        <p>I promise to reply A.S.A.P.</p>
-        <p>Note: No spam Messages Please :)</p>
-      </div>
-    </div>
+	  <br>
+	  <br><br>
+	  <br>
+	  
+	  
+      <div id="map"></div>
+	  
+    <script>
+      function initMap() {
+        var uluru = {lat: 21.483597, lng: 83.954968};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+	  
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUpIE24vzrTNuguaIjUVBtAULr7_v_suc&callback=initMap">
+    </script>
+	</div>
   </section>
   <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
   <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a></div>
