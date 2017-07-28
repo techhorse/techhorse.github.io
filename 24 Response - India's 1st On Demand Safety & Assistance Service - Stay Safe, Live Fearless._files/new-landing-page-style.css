@@ -1,0 +1,548 @@
+.bikeassist ul li{
+list-style:none;
+margin:0px;
+padding: 2px 13px;
+background: url(../img/onetouchresponse/arrow-content.png) no-repeat left 15px !important;
+text-align: left;
+}
+.blue{
+color:#1b2149;
+}  
+
+
+/*start partner with us*/
+#clients .clients-wrap ul li
+{
+width:220px;
+}
+#clients .clients-wrap ul li
+{
+border:none !important;
+}
+
+.carousel-control.right, .carousel-control.left
+{
+background-image:none !important;
+}
+/*#mainwrapper .box .full-caption
+{
+width: 100%;
+}*/
+.glyphicon-chevron-left:before,.glyphicon-chevron-right:before
+{
+content:none !important;
+
+}
+.glyphicon-chevron-left
+{
+background:rgba(117, 117, 117, 0.8) url(../img/onetouchresponse/mediapartners/left-arrow.png) no-repeat center 50%;
+}
+.glyphicon-chevron-right{
+background:rgba(117, 117, 117, 0.8) url(../img/onetouchresponse/mediapartners/right-arrow.png) no-repeat center 50%;
+}
+#content
+{
+-webkit-box-shadow: none;
+background:none;
+}
+/*End Partner with us*/
+
+.main_heading
+{
+padding:30px 0 40px 0px;
+}
+
+.main_heading {
+    color: #1b2149;
+    font-size: 171.4%;
+    padding: 30px 0 30px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.activate_link {
+    margin: 80px 0px 65px 0px !important;
+    font-size: 21px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.media_mention{
+height: 130px;
+width: 550px;
+float: left;
+}
+.service-description1{
+line-height: 29px;
+}
+.safety_service{
+padding: 35px 0 90px;
+}
+.corporate_arrow li span
+{ 
+background: url(../img/onetouchresponse/arrow-content.png) no-repeat left 8px ;
+}
+.content ul li{
+text-align:left;
+margin:0px;
+background: url(../img/onetouchresponse/arrow-content.png) no-repeat left 12px ;
+}
+.testmonial_text{
+margin-bottom: 31px;
+}
+.text-center{
+text-align:center;
+}		
+header .logo
+{
+margin: 0px 20px 0 0;
+}
+/*header, footer{
+height: 80px;
+
+}*/
+/*footer{
+padding:12px;
+height:auto;
+text-align:center;
+padding-top:15px;
+background:#f00;
+}*/
+.service-title11 .association
+{
+padding-top: 35px;
+padding-bottom:35px;
+font-size: 19px;
+}
+.footer_otr_logo
+{
+padding-top:50px;
+}
+.ph-number{
+margin-top: 23px;
+}
+.header_text{
+color:#fff;font-size: 20px;
+}
+.about_us_img{
+width: 286px;
+border-right: 2px solid red;
+}
+.p_text{
+margin-bottom:20px;line-height:40px;text-align: justify;padding:0px 15px;
+}
+.center2{
+padding:0px 0px 30px 0px;line-height: 30px;
+}
+
+@media (max-width: 767px) 
+{
+/**/
+#Safety .news
+{
+padding-bottom: 40px !important;
+}
+.news_middle{
+padding-top:0px !important;
+}
+/**/
+/*Start ESP css*/
+.banner_text {
+    padding: 0px 0px 30px 0px;
+    font-size: 20px !important;
+    line-height: 28px !important;
+}
+.banner_tag_line {
+    height: auto !important;
+}
+/*End ESP css*/
+/*start students css*/
+#Safety .img{
+float:none !important;
+background:left 10px !important; 
+}
+.safety_need ul li
+{
+text-align: justify;
+margin: 0px;
+line-height: 25px !important;
+background: url(../images/newlanding/arrow-content.png) no-repeat left 10px !important;
+}
+/*End students css*/
+.testmonial_text {
+    height: auto !important;
+}
+.center2{
+padding:0px 0px 30px 0px;line-height: 30px;
+text-align:center;
+}
+.safety_service, .main_heading{
+padding: 10px 0 20px !important;
+}
+.safety_service{
+text-align:justify;
+
+}
+.service-description1{
+text-align:center;
+}
+
+.p_text{
+line-height:30px !important;
+font-family:Helvetica, sans-serif;
+}
+
+.about_us_img{
+width: 286px;
+border-right: none !important;
+}
+header, footer {
+ height: auto !important;
+}
+.pull-left, .pull-right
+{
+float:none !important;
+}
+header .logo
+{
+display:block;
+}
+.footer_otr_logo
+{
+padding-top:0px;
+}
+.media_mention{
+height:auto !important;
+width:auto !important;
+float:none !important;
+padding-bottom: 35px !important;
+}
+/*start transport css*/
+.icon{
+height:auto !important;
+}
+
+/*end transport css*/
+
+}
+
+@media (max-width: 992px)
+{
+/*Start ESP css*/
+
+.banner_tag_line
+{
+height:auto !important;
+}
+/*End ESP css*/
+
+/*Start educaion css*/
+#Safety .news
+{
+padding-bottom: 30px;
+}
+/*End Education css*/
+
+#Safety .img{
+float:none !important;
+text-align: center;
+}
+header{
+text-align:center;
+}
+.header_text{
+color:#fff;font-size: 15px;
+}
+/*start transport css*/
+.icon{
+height:auto !important;
+}
+
+/*end transport css*/
+}
+
+@media only screen and (max-width: 1000px) {
+.main_heading
+{
+font-size: 20px;
+line-height: 25px;
+}
+}
+
+#OTR_Helps_You, #Corporate_Service, #How_It_works, #Media_Coverage {
+background:#f1f1f1;/*padding-bottom: 52px;*/
+}
+#Safety, #Our_Services, #About_Us, #Testimonials
+{
+background: #fff;
+}
+.testmonial_text
+{
+height:120px;
+}
+/*start transport css*/
+
+.icon{
+height:100px;
+}
+
+/*end transport css*/
+
+/*start education css*/
+#Safety .img{
+float:right;
+}
+.safety_need ul li
+{
+text-align: justify;
+margin: 0px;
+background: url(../images/newlanding/arrow-content.png) no-repeat left 24px;
+line-height: 46px;
+padding: 4px 20px;
+list-style:none;
+}
+/*End education css*/
+
+/*Start ESP css*/
+.safety_need{
+line-height:38px;
+text-align: justify;
+}
+.banner_tag_line {
+    border-bottom: 1px solid #d1d2d4;
+    background: #1b2149;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.banner_text {
+    padding: 20px 0px 20px 0px;
+    font-size: 33px;
+    line-height: 35px;
+}
+/*End ESP css*/
+
+/*Start Travel css*/
+/*#iconslogo
+{
+margin-bottom: 19px;
+}*/
+.news_middle
+{
+    padding-top: 22px;
+}
+/*End Travel css*/
+
+
+
+/*start family css--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 767px) 
+{
+.main-banner .caption{
+top: 40% !important;
+line-height: 30px;
+font:Arial, Helvetica, sans-serif;
+font-size:13px !important;
+text-align:center !important;
+width:250px !important;
+}
+
+.content ul li{
+text-align:justify !important;
+}
+/*.main-banner .caption{
+top: 54%;
+position:absolute;
+background:none !important;
+color:#fff !important;
+font-size:30px !important;
+font-weight:600 !important; 
+text-align:center !important;
+right:auto !important;
+left:auto !important;
+width:100% !important;
+}*/
+}
+.iconslogo
+{
+height:100px;
+}
+
+.main-banner .caption{
+right: 0%;
+background: red;
+font-size: 37px;
+padding: 10px;
+border-radius: 13px 0px 0px 13px;
+color: white;
+max-width: 400px;
+width: 400px;
+top: 54%;
+position:absolute;
+transform:translate(0,-50%);
+-webkit-transform:translate(0,-50%);
+-moz-transform:translate(0,-50%);
+-o-transform:translate(0,-50%);
+}
+
+.service-description1{
+line-height: 29px;
+}
+.main_row
+{
+margin-top:20px !important;
+}
+.main_row_content{
+padding:30px 0px;
+text-align:center;
+border-bottom:1px solid grey;
+width:80%;
+height:80px;
+float:left;	
+}
+
+.mobile_view{
+display:none;
+}
+.features_image{
+height:80px;float:left;width: 80px;
+}
+.features_image img{
+padding-top: 6px;
+}
+.price-row{
+border-radius: 28px;box-shadow: 2px 3px 10px #b7b4b4;padding-bottom: 22px;
+}
+
+/* start mobile view*/
+@media only screen and (max-width: 1000px) {
+
+.price-row
+{
+    box-shadow: 0px 0px 0px #fff !important;
+}
+.price-row1{
+border-radius: 28px;box-shadow: 4px 4px 10px gray;padding-bottom: 22px;
+background:#fff;
+}
+.price-row{
+border-radius: 28px;box-shadow: 0px 0px 0px gray;padding-bottom: 22px;
+}
+
+
+/************start**********/
+.main_row_content
+{
+width:100%;
+float:none;
+}
+#mobile_merge_hide
+{
+display:none;
+}
+.mobile_view{
+display:block;
+color:grey;
+font-size:13px;
+}
+.features_image{
+height:50%;float:none;width: 100% !important;text-align:center;
+}
+.main_row_content
+{
+padding:12px 0px;
+}
+}
+
+/*end family css*/
+
+/*slider for media section*/
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    position: relative;
+    overflow: hidden;
+    float:left;
+    width:100%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;  
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    padding:5px 10px;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;      
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top:40%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;     
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+}
+
+.nbs-flexisel-nav-left:before {
+    content: "<"
+}
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.4;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;    
+}
+
+.nbs-flexisel-nav-right:before {
+    content: ">"
+}
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.4;
+}
+
+/*End Slider for media section*/
